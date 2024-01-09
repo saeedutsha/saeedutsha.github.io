@@ -1,6 +1,6 @@
 # saeedutsha.github.io
- Personal Website of Kazi Saeed Alam
-<img src="./assets/photo2.png" alt="Profile Picture" class="about-pic">
+ Personal Website of Kazi Saeed Alam <br>
+<img style="width:300px;" src="./assets/photo2.png" alt="Profile Picture" class="about-pic">
 
   <p>
                         I am currently employed as an Assistant Professor in the Department of Computer Science and Engineering at <b>Khulna University of Engineering & Technology, Bangladesh.</b> I pursued my Master’s degree in 2023, specializing in Medical Image Analysis, through an <a onclick="window.open('https://maiamaster.udg.edu/')" class="hyper__text">Erasmus Mundus Joint Master Degree Program</a> coordinated by the <b>University of Girona</b>, with funding provided by the European Union. I did my MSc thesis, titled <b>“Temporal Image Registration using deep learning for 3D Fetal Echocardiography,”</b> under the supervision of <a onclick="window.open('https://scholar.google.com/citations?hl=en&user=TUa2r84AAAAJ&view_op=list_works&sortby=pubdate')" class="hyper__text">Dr. Choon Hwai Yap</a> at <b>Imperial College London</b>.
