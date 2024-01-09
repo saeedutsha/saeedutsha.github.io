@@ -8,6 +8,10 @@
         flex-wrap:wrap;
     }
 
+    .section-with-line {
+        display: block; 
+    }
+
 } 
 
 
@@ -23,7 +27,7 @@
         margin-top: 2rem;
     }
 
-    #profile, .section-container {
+    #profile, .section-container, #project{
         display: block;
     }
 
@@ -37,7 +41,7 @@
     
 
     section {
-        margin: 0 5%;
+        margin: 0 3.5%;
         display: inline-block;
     }
 
@@ -51,15 +55,11 @@
         margin-top: 0;
     }
 
-} 
-
-
-@media screen and (max-width: 1200px) {
     #profile {
         height: 83vh;
         margin-bottom: 0;
     }
-    .about-containers, .btn-container {
+    .about-containers, .btn-container, {
         flex-wrap: wrap;
     }
 
@@ -68,4 +68,102 @@
         height: 46vw;
         justify-content: center;
     }
-}
+
+    /* Profile */
+
+    .logo-img{
+        width: 5rem;
+    }
+
+    .section__text__p1 {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+    .section__text__p2 {
+        font-size: 0.9rem;
+    }
+
+    .tag {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .btn__container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        display: inline;
+        white-space: nowrap;
+        padding: 0.9rem;
+        width: 6rem;
+        font-size: 0.7rem;
+    }
+
+    .btn-color-1, .btn-color-2 {
+        
+    }
+
+    .btn-color-1{
+        margin-left: 15px;
+    }
+
+    .icon {
+        height: 1.5rem;
+    }
+    
+    /* About */
+
+    .section__pic-container {
+        margin-top: 2rem;
+    }
+
+    .about-container {
+        gap: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 13px;
+    }
+
+    .details-container {
+        padding:0.9rem;
+    }
+
+    .about-text {
+        font-size: 0.7rem;
+    }
+
+
+    /* Timeline */
+
+    .history-tl-container {
+        width: auto;
+    }
+
+    .history-tl-container ul.timeline-ul li {
+        margin: 20px;
+    }
+
+    /* Achievements */
+
+    .achievements-container {
+        display: block;
+        width: auto;
+    }
+
+} 
+
+
+/* @media screen and (max-width: 1200px) {
+    
+} */

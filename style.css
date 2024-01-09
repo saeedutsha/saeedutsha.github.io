@@ -152,7 +152,6 @@ a:hover {
 
 section {
     padding: 4vh;
-    /* height: 96vh; */ 
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -161,6 +160,14 @@ section {
 .section-container{
     display: flex;
 }
+
+.section-with-line {
+    display: none; 
+    width: 100%; 
+    opacity: 0.5; 
+    background-color: rgb(181, 181, 181); 
+}
+
 
 /* PROFILE SECTION */
 
@@ -238,6 +245,7 @@ section {
 .btn-container{
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 
 .btn {
@@ -273,14 +281,14 @@ section {
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-container {
-    gap: 1rem;
-}
-
 /* ABOUT SECTION */
 
 #about {
     position: relative;
+}
+
+.about-text {
+    text-align: justify;
 }
 
 .about-container {
@@ -370,7 +378,6 @@ section {
     margin:auto;
     display:block;
     gap: 2rem;
-    margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
@@ -435,6 +442,7 @@ ul.li .timestamp{
     display: inline-block;
     color: white;
     font-size: 15px;
+    width: auto;
 }
 
 /* PUBLICATIONS SECTION */
