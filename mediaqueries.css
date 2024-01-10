@@ -23,7 +23,7 @@
     }
 
     .title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .section__text__p2 {
         font-size: 0.8rem;
@@ -131,16 +131,78 @@
 
     .history-tl-container {
         width: auto;
+        
+    }
+
+    .history-tl-container ul.timeline-ul {
+        margin:0;
     }
 
     .history-tl-container ul.timeline-ul li {
-        margin: 20px;
+        margin-left: 20px;
+    }
+
+    .timestamp, .time {
+        font-size: 0.5rem;
+    }
+    
+    .history-tl-container ul.timeline-ul li::before{
+        border: 8px solid rgba(255, 255, 255, 0.74);
+        height: 12px;
+        width: 12px;
+        top: -2px;
+        left: -16px;
+    }
+
+    /* Publications */
+
+    .button-publications {
+        padding: 3px 6px;
+        width: auto;
+        margin: 2px;
+    }
+
+    #publicationContent {
+        font-size: 0.7rem;
+    }
+
+    .pub-bottom-links {
+        font-size: 0.6rem;
+        margin-left: 20px;
     }
 
     /* Project */
 
+    .button-projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-details-container {
+        align-items: center;
+    }
+    
+    .project-image-container {
+        margin: 0;
+    }
+
+    .project-text-container .pr-title {
+        text-align: center;
+    }
+    
+
+    .button-projects {
+        width: 10rem;
+        padding: 4px 6px;
+        font-size: 0.6rem;
+    }
+
     .project-pic {
-        width: 280px;
+        width: 60vw;
+    }
+
+    .project-text-container {
+        font-size: 0.6rem;
     }
 
     .project-details-container {
@@ -154,6 +216,15 @@
         order: 2;
     }
 
+    .btn-container-load {
+        margin: 1px;
+    }
+
+    .button-projects-load {
+        padding: 3px 6px;
+        width: auto;
+        font-size: 0.6rem;
+    }
 
     /* Achievements */
 
@@ -162,12 +233,52 @@
         width: auto;
     }
 
+    .acv-pic {
+        width: 45vw;
+    }
+
+    .acv-title {
+        font-size: 0.7rem;
+    }
+
+    .acv-details-container li {
+        font-size: 0.6rem;
+    }
+
     .about-container {
         flex-direction: column;
     }
 
-     /* Contact */
-     .contact-content  {
+    .acv-button {
+        width: 7rem;
+        padding: 4px 6px;
+        font-size: 0.6rem;
+    }
+
+    /* Photography */
+
+    .photo-description {
+        font-size: 0.6rem;
+        margin-top: 1rem;
+    }
+
+    .photo-example {
+        font-size: 0.8rem;
+    }
+
+    .photography-booth {
+        flex-direction: column; 
+        margin: 1rem 0; 
+        max-width: 10%;
+    }
+
+    .instagram-media {
+        max-width: 100px;
+        width: 10%;
+    }
+
+    /* Contact */
+    .contact-content  {
         flex-direction: column;
         margin: 0;
         gap: 0;
@@ -202,5 +313,3 @@
     }
 
 } 
-
-

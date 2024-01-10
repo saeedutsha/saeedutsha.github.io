@@ -451,7 +451,7 @@ ul.li .timestamp{
     position: relative;
 }
 .publications-container, .button-publications-container, .button-projects-container {
-    position: relative;
+    /* position: relative; */
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
