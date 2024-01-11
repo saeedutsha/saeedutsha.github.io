@@ -754,7 +754,9 @@ ul.li .timestamp{
 }
 
 .btn__container {
+    display: flex;
     margin-top: 1.3rem;
+    justify-content: center;
 }
 
 .right form .button-area button {
