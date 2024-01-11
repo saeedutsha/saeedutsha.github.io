@@ -176,8 +176,8 @@
     #scroll-up-btn {
         display: none;
         position: fixed;
-        bottom: 1%;
-        right: 38%;
+        bottom: 1rem;
+        right: 20rem;
         background-color: #258CC7;
         color: #fff;
         border: none;
@@ -185,11 +185,13 @@
         padding: 3px 10px;
         cursor: pointer;
         z-index: 999;
+        opacity: 0.5;
     }
 
     #scroll-up-btn:hover {
         background-color: black;
         filter: brightness(90%);
+        opacity: 1;
     }
 
     section, .section-container {
@@ -317,35 +319,37 @@
         }
     
         .info, .contant_text_inv {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
     
         #contact .contact-content .right .text {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
         
     
         #contact .right form .fields, #contact .right form .field,
         #contact .right form .fields .field {
             width: 40%;
+            height: 30px;
+            margin-bottom: 15px;
         }
     
         #contact .right form .fields input, #contact .right form .field input,
         #contact .right form .fields .field input {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
     
         #contact .contact-content .column {
-            margin: 0.5rem;
+            margin: 0.4rem;
         }
     
         #contact .right form .textarea {
-            margin-bottom: 1.3rem;
-            height: 75px;
+            margin-bottom: 1.2rem;
+            height: 70px;
         }
     
         #contact .right form .textarea textarea {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
         
     
@@ -358,11 +362,12 @@
             flex-direction: column;
             gap: 0.5rem;
             text-align: center;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     
         .footer-nav {
             margin-bottom: 60px;
         }
+
 
 }

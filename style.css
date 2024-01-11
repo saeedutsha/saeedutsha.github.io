@@ -759,6 +759,10 @@ ul.li .timestamp{
     justify-content: center;
 }
 
+.btn__container__contact {
+    margin-top: 1.3rem;
+}
+
 .right form .button-area button {
     color: #fff;
     display: block;
