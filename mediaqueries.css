@@ -174,22 +174,21 @@
     }
 
     #scroll-up-btn {
-        display: block;
+        display: none;
         position: fixed;
-        bottom: 10px;
-        right: 305px;
+        bottom: 1%;
+        right: 48%;
         background-color: #258CC7;
         color: #fff;
         border: none;
         border-radius: 6px;
         padding: 3px 10px;
         cursor: pointer;
-        opacity: 0.7;
+        z-index: 999;
     }
 
     #scroll-up-btn:hover {
         background-color: black;
-        opacity: 1;
         filter: brightness(90%);
     }
 
