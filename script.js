@@ -13,7 +13,21 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+
 });
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+
+// window.onscroll = function() {
+//     var scrollUpBtn = document.getElementById('scroll-up-btn');
+//     var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+//     // Adjust the value (20) based on when you want the button to appear
+//     scrollUpBtn.style.display = scrollPosition > 20 ? 'block' : 'block';
+// };
 
 function sendEmail(){  
     var name=document.getElementById("name").value;  

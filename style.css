@@ -27,6 +27,10 @@ a,
     transition: all 300ms ease;
 }
 
+.scroll-up-btn {
+    display: none;
+}
+
 /* DESKTOP NAV */
 
 nav, 
@@ -620,10 +624,6 @@ ul.li .timestamp{
 
 /* PHOTOGRAPHY SECTION */
 
-.photo-container {
-    display: block;
-}
-
 .photo-description {
     margin-top: 2rem;
     font-size: large;
@@ -641,10 +641,9 @@ ul.li .timestamp{
     color:  #258CC7;
 }
 
-.photography-booth {
-    margin-left: 3.5rem;
-    align-items: center;
-    width: 20vw;
+.ph-pic {
+    width: 350px;
+    height: 450px;
 }
 
 /* CONTACT SECTION */
